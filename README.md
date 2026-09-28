@@ -1,8 +1,7 @@
 # Deep Learning with CNNs and RNNs
 
-A hands-on collection of Jupyter notebooks that explores foundational deep learning concepts through practical implementations in **PyTorch**. The repository covers convolution operations, image filtering and pooling, convolutional neural network architectures, recurrent neural networks for sentiment classification, and character-level text generation.
+The repository covers convolution operations, image filtering and pooling, convolutional neural network architectures, recurrent neural networks for sentiment classification, and character-level text generation.
 
-The goal of this repository is to connect the mathematical ideas behind deep learning with working code that makes each concept easier to understand, experiment with, and extend.
 
 ---
 
