@@ -505,25 +505,6 @@ This demonstrates how the same trained neural network can produce very different
 
 ---
 
-# Key Learning Objectives
-
-Across the five notebooks, this repository demonstrates how to:
-
-1. Understand how kernels move across an input during convolution.
-2. Calculate how stride and padding affect feature-map dimensions.
-3. Apply Sobel filters for edge detection.
-4. Compare max pooling with average pooling.
-5. Build CNN architectures using PyTorch.
-6. Understand the role of residual and skip connections.
-7. Prepare variable-length text sequences for neural networks.
-8. Build an LSTM for binary sentiment classification.
-9. Evaluate a classifier with accuracy, precision, recall, F1-score, and a confusion matrix.
-10. Build a character-level LSTM language model.
-11. Generate text autoregressively.
-12. Explore how sampling temperature affects generated text.
-
----
-
 # Technologies Used
 
 The notebooks use the following tools and libraries:
@@ -578,8 +559,6 @@ jupyter notebook
 ```
 
 Then open any notebook from the browser interface.
-
----
 
 
 ---
