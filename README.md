@@ -581,90 +581,6 @@ Then open any notebook from the browser interface.
 
 ---
 
-# Data and File Requirements
-
-| Notebook | Additional Requirement |
-|---|---|
-| `CNN_Architectures.ipynb` | No external dataset required for model construction |
-| `Convolution_Operations .ipynb` | No external dataset required |
-| `Filters_Pooling.ipynb` | Requires `parrot.jpg` or another image with the path updated |
-| `RNN_Sentiment_Classification.ipynb` | Downloads the IMDB dataset through Keras |
-| `RNN_Text_Generation.ipynb` | Downloads Tiny Shakespeare from GitHub |
-
-An active internet connection is required the first time the IMDB and Tiny Shakespeare datasets are downloaded.
-
----
-
-# Recommended Learning Order
-
-For someone studying these topics for the first time, the notebooks can be followed in this order:
-
-```text
-1. Convolution_Operations .ipynb
-          │
-          ▼
-2. Filters_Pooling.ipynb
-          │
-          ▼
-3. CNN_Architectures.ipynb
-          │
-          ▼
-4. RNN_Sentiment_Classification.ipynb
-          │
-          ▼
-5. RNN_Text_Generation.ipynb
-```
-
-The first three notebooks build from individual convolution operations to complete CNN architectures. The final two move into sequential data and demonstrate how LSTMs can be used for both **classification** and **generation**.
-
----
-
-# CNN vs. RNN Focus in This Repository
-
-| CNN Topics | RNN/LSTM Topics |
-|---|---|
-| Convolution kernels | Word and character embeddings |
-| Padding and stride | Sequential inputs |
-| Edge detection | Hidden states |
-| Pooling | Sentiment classification |
-| AlexNet-style CNN | Character prediction |
-| Residual blocks | Text generation |
-| Skip connections | Temperature sampling |
-
-This provides experience with two major families of deep learning architectures and shows how their structure depends on the type of data being processed.
-
----
-
-# Reproducibility
-
-Several notebooks set random seeds to make experiments more reproducible. Even with fixed seeds, exact results can still vary because of:
-
-- Hardware differences
-- PyTorch version differences
-- GPU implementation details
-- Randomized optimization
-- Changes in downloaded datasets or dependencies
-
-Saved metrics in this README reflect the outputs currently stored in the uploaded notebooks.
-
----
-
-# Possible Extensions
-
-These notebooks can be expanded in several directions:
-
-- Train the CNN architectures on CIFAR-10 or another image dataset.
-- Add batch normalization to the CNN and residual models.
-- Compare CNN training performance with and without skip connections.
-- Visualize intermediate CNN feature maps.
-- Add combined Sobel gradient magnitude visualization.
-- Compare LSTM sentiment classification with GRU or bidirectional LSTM models.
-- Add learning curves for training and validation loss.
-- Add ROC-AUC evaluation to the sentiment classifier.
-- Save and reload trained models with `torch.save()`.
-- Experiment with longer training for the Shakespeare model.
-- Add top-k or top-p sampling for text generation.
-- Compare character-level generation with word-level tokenization.
 
 ---
 
@@ -674,8 +590,4 @@ These notebooks are intended primarily for **learning, experimentation, and demo
 
 Model performance should therefore be interpreted as an educational benchmark rather than as a state-of-the-art result.
 
----
 
-## Author
-
-Created as part of a practical exploration of **deep learning, convolutional neural networks, recurrent neural networks, and PyTorch**.
