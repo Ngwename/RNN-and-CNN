@@ -235,7 +235,6 @@ Calculates the mean of each pooling window, producing a smoother summary of the 
 - Average pooling
 - Tensor dimensions
 
-> **Jupyter environment note:** `cv2.imshow()` may not display correctly in some browser-based or headless notebook environments. The Matplotlib visualization included in the notebook can be used instead.
 
 ---
 
